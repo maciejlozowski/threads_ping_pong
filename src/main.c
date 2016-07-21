@@ -32,6 +32,7 @@ void *pingFunc(void *p){
     print = true;
     pthread_cond_signal(&COND);
     pthread_mutex_unlock(&MTX);
+	int a = 5;
 }
 	}
 
